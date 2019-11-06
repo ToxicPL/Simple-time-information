@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/*===================Content style===================*/
+.top {
+    background-color: #AAAAAA;
+    width: 780px;
+    clear: both;
+    text-align: center;
+}
+.left {
+    background-color: #e4e4e4;
+    width: 189px;
+    float: left;
+    font-weight: 900;
+    font-size: 23px;
+    height: 300px;
+    padding: 20px 0 0 10px;
+}
+.right {
+    width: 591px;
+    float: left;
+    height: 300px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.footer {
+    background-color: #AAAAAA;
+    text-align: center;
+    width: 780px;
+    clear: both;
+}
+/*======================================*/
+/*===================Button style===================*/
+.btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.text button {
+    color: red;
+}
+/*======================================*/
